@@ -1414,36 +1414,8 @@ while True:
 
 
 
-    ---------------------------------------------------------------------------
-
-    KeyboardInterrupt                         Traceback (most recent call last)
-
-    /tmp/ipython-input-3875411250.py in <cell line: 0>()
-          2 
-          3 while True:
-    ----> 4     q = input("You: ")
-          5     if q.lower() in ["exit", "quit"]: break
-          6     answer = chatbot_turn(q)
-
-
-    /usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py in raw_input(self, prompt)
-       1175                 "raw_input was called, but this frontend does not support input requests."
-       1176             )
-    -> 1177         return self._input_request(
-       1178             str(prompt),
-       1179             self._parent_ident["shell"],
-
-
-    /usr/local/lib/python3.12/dist-packages/ipykernel/kernelbase.py in _input_request(self, prompt, ident, parent, password)
-       1217             except KeyboardInterrupt:
-       1218                 # re-raise KeyboardInterrupt, to truncate traceback
-    -> 1219                 raise KeyboardInterrupt("Interrupted by user") from None
-       1220             except Exception:
-       1221                 self.log.warning("Invalid Message:", exc_info=True)
-
-
-    KeyboardInterrupt: Interrupted by user
-
+    
+    
 
 # Section 8: Testing and evaluation
 
