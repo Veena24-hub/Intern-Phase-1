@@ -109,9 +109,7 @@ In this step, we install all the required Python libraries:
     Requirement already satisfied: h11>=0.16 in /usr/local/lib/python3.12/dist-packages (from httpcore==1.*->httpx<1,>=0.23.0->langsmith>=0.1.17->langchain) (0.16.0)
     Requirement already satisfied: jsonpointer>=1.9 in /usr/local/lib/python3.12/dist-packages (from jsonpatch<2.0,>=1.33->langchain-core<1.0.0,>=0.3.72->langchain) (3.0.0)
     Requirement already satisfied: sniffio>=1.1 in /usr/local/lib/python3.12/dist-packages (from anyio->httpx<1,>=0.23.0->langsmith>=0.1.17->langchain) (1.3.1)
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1.7/1.7 MB[0m [31m36.0 MB/s[0m eta [36m0:00:00[0m
-    [2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m331.1/331.1 kB[0m [31m29.7 MB/s[0m eta [36m0:00:00[0m
-    [?25h
+   
 
 
 ```python
@@ -422,7 +420,7 @@ print("First embedding sample (first 8 values):", doc_embeddings[0][:8].tolist()
 
 
 
-    Batches:   0%|          | 0/1 [00:00<?, ?it/s]
+   
 
 
     Created doc_embeddings with shape: (4, 384)
